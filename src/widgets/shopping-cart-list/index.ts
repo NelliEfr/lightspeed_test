@@ -1,1 +1,0 @@
-export { default as ShoppingCartList } from './ui.vue'
