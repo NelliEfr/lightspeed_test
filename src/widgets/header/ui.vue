@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { computed, reactive } from 'vue';
+import { computed, reactive, type Component } from 'vue';
 import { Wrapper } from '@/shared/wrapper';
 import { Navigation } from '@/features/navigation';
 import { AkShoppingBag } from '@kalimahapps/vue-icons';
@@ -9,8 +9,15 @@ import { useShoppingCartStore } from '@/app/stores/shoppingCart';
 const storeShoppingCart = useShoppingCartStore();
 const cartProductsCount = computed(() => storeShoppingCart.cartProducts.reduce((acc, el) => acc + el.count, 0));
 
+interface NavItem {
+  label: string;
+  link: string;
+  fontSize: 'xs' | 's' | 'm' | 'l' | 'xl';
+  icon?: Component;
+  count?: number;
+}
 
-const navItems = reactive([
+const navItems: NavItem[] = reactive([
     { label: 'Main page', link: '/', fontSize: 'l' },
     // { label: 'Favorites', link: '/favorites', fontSize: 's', icon: AkHeart, count: 0 },
     { label: 'Cart', link: '/cart', fontSize: 's', icon: AkShoppingBag, count: cartProductsCount }
