@@ -1,1 +1,1 @@
-export { default as Wrapper } from './ui.vue';
+export { default as Wrapper } from './ui/ui.vue';

@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { CartItem } from '@/entities/cart/card';
+import { CartItem } from '@/entities/cart';
 import { Button } from '@/shared/button';
 import { RouterLink } from 'vue-router';
 import { type CartProduct } from '@/entities/cart/model/types';

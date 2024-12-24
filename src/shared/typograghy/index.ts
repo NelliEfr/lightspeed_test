@@ -1,1 +1,1 @@
-export { default as Typography } from './ui.vue';
+export { default as Typography } from './ui/ui.vue';

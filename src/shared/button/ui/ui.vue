@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 
-import { Typography } from '../typograghy';
+import { Typography } from '@/shared/typograghy';
 
 interface Props {
   color?: 'primary' | 'secondary' | 'grayscale' | 'dark' | 'error';

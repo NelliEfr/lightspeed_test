@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { useModalStore } from '@/app/stores/modal';
-import { Typography } from '../typograghy';
+import { Typography } from '@/shared/typograghy';
 import { AkCross } from '@kalimahapps/vue-icons';
 import type { ComputedRef } from 'vue';
 

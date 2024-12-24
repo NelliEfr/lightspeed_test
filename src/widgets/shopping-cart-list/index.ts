@@ -1,1 +1,1 @@
-export { default as ShoppingCartList } from './ui.vue'
+export { default as ShoppingCartList } from './ui/ui.vue'

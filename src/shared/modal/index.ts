@@ -1,1 +1,1 @@
-export { default as ModalWindow } from './ui.vue';
+export { default as ModalWindow } from './ui/ui.vue';

@@ -1,1 +1,1 @@
-export { default as Header } from './ui.vue';
+export { default as Header } from './ui/ui.vue';

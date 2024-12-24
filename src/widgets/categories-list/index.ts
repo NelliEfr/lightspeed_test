@@ -1,1 +1,0 @@
-export { default as CategoriesList } from './ui.vue'

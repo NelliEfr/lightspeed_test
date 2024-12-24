@@ -1,1 +1,1 @@
-export { default as ShoppingCartPage } from './ui.vue';
+export { default as ShoppingCartPage } from './ui/ui.vue';
