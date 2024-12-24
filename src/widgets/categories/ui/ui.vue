@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import { type Category } from '@/entities/category/model/types';
 import { Typography } from '@/shared/typograghy';
-import { CategoryCard } from '@/entities/category'; 
 import { CategoriesList } from '@/features/categories-list';
 
 interface CardsProps {

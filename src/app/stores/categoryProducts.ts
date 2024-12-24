@@ -1,10 +1,10 @@
 import { defineStore } from "pinia";
-import { reactive, ref } from "vue";
+import { ref } from "vue";
 import { type Product } from "@/entities/product/model/types";
 import { fetchCategoryProducts } from "@/entities/product/api/fetchProducts";
 
 export const useCategoryProductsStore = defineStore('categoryProducts', () => {
-    let products = ref<Product[]>([]);
+    const products = ref<Product[]>([]);
     const loading = ref(false);
     const error = ref<string | null>(null);
 

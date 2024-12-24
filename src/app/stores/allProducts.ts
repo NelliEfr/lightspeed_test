@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { reactive, ref } from "vue";
+import { ref } from "vue";
 import { type Product } from "@/entities/product/model/types";
 import { fetchAllProducts } from "@/entities/product/api/fetchProducts";
 

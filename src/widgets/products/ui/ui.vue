@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { ProductCard } from '@/entities/product';
 import { type Product } from '@/entities/product/model/types';
 import { Typography } from '@/shared/typograghy';
 import { ProductsList } from '@/features/products-list';

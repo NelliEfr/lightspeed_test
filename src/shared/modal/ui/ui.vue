@@ -2,13 +2,12 @@
 import { useModalStore } from '@/app/stores/modal';
 import { Typography } from '@/shared/typograghy';
 import { AkCross } from '@kalimahapps/vue-icons';
-import type { ComputedRef } from 'vue';
 
 interface Props {
     data: {
         content: string,
         isModalOpen: boolean,
-        closeAction?: Function
+        closeAction?: () => number
     }
 }
 

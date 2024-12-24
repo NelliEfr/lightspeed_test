@@ -38,9 +38,7 @@ export const useShoppingCartStore = defineStore("shoppingCart", () => {
     }
   };
 
-  const clearCart = () => {
-    cartProducts.value.length = 0;
-  };
+  const clearCart = () => cartProducts.value.length = 0;
 
   const computedCartProducts = computed(() => cartProducts.value);
 
